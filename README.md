@@ -72,7 +72,7 @@ useNpm('You should switch back to npm. Version >=5 is really great.');
 
 ### Acknowledgements
 
-Forked from [use-yarn](http://npm.im/use-npm).
+Forked from [use-yarn](http://npm.im/use-yarn).
 
 ----
 
