@@ -1,4 +1,4 @@
-# no-yarn
+# ban-yarn
 
 [![NPM version][npm-img]][npm-url] [![Downloads][downloads-img]][npm-url]
 
