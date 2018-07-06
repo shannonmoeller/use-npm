@@ -1,4 +1,4 @@
-# use-npm
+# no-yarn
 
 [![NPM version][npm-img]][npm-url] [![Downloads][downloads-img]][npm-url]
 

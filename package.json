@@ -1,7 +1,7 @@
 {
-  "name": "use-npm",
+  "name": "no-yarn",
   "version": "1.0.0",
-  "description": "Force users to use yarn instead of npm.",
+  "description": "Request that users use npm instead of yarn.",
   "main": "index.js",
   "bin": {
     "use-npm": "cli.js"
