@@ -78,7 +78,7 @@ Forked from [use-yarn](http://npm.im/use-npm).
 
 MIT © [Shannon Moeller](http://shannonmoeller.com)
 
-[npx]: https://www.npmjs.com/package/npx
-[downloads-img]: http://img.shields.io/npm/dm/apply-html.svg?style=flat-square
-[npm-img]:       http://img.shields.io/npm/v/apply-html.svg?style=flat-square
-[npm-url]:       https://npmjs.org/package/apply-html
+[npx]:           https://www.npmjs.com/package/npx
+[downloads-img]: http://img.shields.io/npm/dm/ban-yarn.svg?style=flat-square
+[npm-img]:       http://img.shields.io/npm/v/ban-yarn.svg?style=flat-square
+[npm-url]:       https://npmjs.org/package/ban-yarn
