@@ -4,11 +4,11 @@
 
 Request that users use `npm` instead of `yarn`.
 
-If run from `yarn` instead of `npm`, the process will exit with error code `1` and print an [error message](https://raw.githubusercontent.com/shannonmoeller/use-npm/master/message.txt).
+If run from `yarn` instead of `npm`, the process will exit with error code `1` and print an [error message](https://raw.githubusercontent.com/shannonmoeller/ban-yarn/master/message.txt).
 
 ## Install
 
-`npm install --save-dev use-npm`
+`npm install --save-dev ban-yarn`
 
 ## Use
 
@@ -18,7 +18,7 @@ For example, in your `package.json`:
 ```json
 {
   "scripts": {
-     "preinstall": "use-npm"
+     "preinstall": "ban-yarn"
   }
 }
 ```
@@ -27,7 +27,7 @@ Or if you have [`npx`][npx]:
 ```json
 {
   "scripts": {
-     "preinstall": "npx use-npm"
+     "preinstall": "npx ban-yarn"
   }
 }
 ```
@@ -36,7 +36,7 @@ You may provide a custom message via the `-m` flag:
 ```
 {
   "scripts": {
-     "preinstall": "npx use-npm -m 'Please use npm!'"
+     "preinstall": "npx ban-yarn -m 'Please use npm!'"
   }
 }
 ```
@@ -45,16 +45,16 @@ Or, you may also provide a custom message read from a file via the `-f` flag:
 ```
 {
   "scripts": {
-     "preinstall": "npx use-npm -f path/to/customMessage.txt"
+     "preinstall": "npx ban-yarn -f path/to/customMessage.txt"
   }
 }
 ```
 
-You may disable use-npm by setting the `DISABLE_USE_NPM` environment variable to `true`:
+You may disable ban-yarn by setting the `DISABLE_USE_NPM` environment variable to `true`:
 ```
 {
   "scripts": {
-     "preinstall": "DISABLE_USE_NPM=true npx use-npm"
+     "preinstall": "DISABLE_USE_NPM=true npx ban-yarn"
   }
 }
 ```
@@ -62,7 +62,7 @@ You may disable use-npm by setting the `DISABLE_USE_NPM` environment variable to
 ### API
 
 ```js
-var useNpm = require('use-npm')
+var useNpm = require('ban-yarn')
 
 useNpm()
 
