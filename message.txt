@@ -1,13 +1,12 @@
-This project uses yarn instead of npm. Please upgrade!
-See https://yarnpkg.com.
+This project uses npm instead of yarn.
 
 To install dependencies:
-$ yarn install
+$ npm install
 
 To install a new package (also adds to package.json):
-$ yarn add [packagename]
+$ npm install --save [packagename]
 
-To upgrade a package:
-$ yarn upgrade [packagename]
+To update a package:
+$ npm update [packagename]
 
-For more help, see https://yarnpkg.com/en/docs/usage.
+For more help, see https://docs.npmjs.com/cli/npm.
