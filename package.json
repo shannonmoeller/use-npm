@@ -1,6 +1,6 @@
 {
   "name": "ban-yarn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Request that users use npm instead of yarn.",
   "main": "index.js",
   "bin": {
