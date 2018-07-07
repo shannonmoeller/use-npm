@@ -6,13 +6,15 @@
     "test": "node cli.js"
   },
   "repository": "shannonmoeller/use-npm",
-  "license": "ISC",
+  "license": "MIT",
   "main": "index.js",
   "bin": {
     "please-use-npm": "cli.js",
     "use-npm": "cli.js"
   },
-  "dependencies": {
-    "minimist": "^1.2.0"
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "useTabs": true
   }
 }

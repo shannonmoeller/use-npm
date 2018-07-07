@@ -4,7 +4,7 @@
 
 Request that users use `npm` instead of `yarn`.
 
-If run from `yarn` instead of `npm`, the process will exit with error code `1` and print an [error message](https://raw.githubusercontent.com/shannonmoeller/use-npm/master/message.txt).
+If run from `yarn` instead of `npm`, the process will exit with error code `1` and print an error message.
 
 ## Install
 
@@ -18,7 +18,7 @@ For example, in your `package.json`:
 ```json
 {
   "scripts": {
-     "preinstall": "npm i --ignore-scripts --no-save please-use-npm && use-npm"
+     "preinstall": "npm i -D --ignore-scripts please-use-npm && use-npm"
   }
 }
 ```
@@ -32,20 +32,11 @@ Or if you have [`npx`][npx]:
 }
 ```
 
-You may provide a custom message via the `-m` flag:
+You may provide a custom message as an argument:
 ```
 {
   "scripts": {
-     "preinstall": "npx please-use-npm -m 'Please use npm!'"
-  }
-}
-```
-
-Or, you may also provide a custom message read from a file via the `-f` flag:
-```
-{
-  "scripts": {
-     "preinstall": "npx please-use-npm -f path/to/customMessage.txt"
+     "preinstall": "npx please-use-npm 'Please use npm!'"
   }
 }
 ```
