@@ -23,7 +23,7 @@ For example, in your `package.json`:
 }
 ```
 
-Or if you have [`npx`][npx]:
+Or if you have [`npx`](https://www.npmjs.com/package/npx):
 ```json
 {
   "scripts": {
@@ -67,9 +67,8 @@ Forked from [use-yarn](http://npm.im/use-yarn).
 
 ----
 
-MIT © [Shannon Moeller](http://shannonmoeller.com)
+MIT
 
-[npx]:           https://www.npmjs.com/package/npx
 [downloads-img]: http://img.shields.io/npm/dm/please-use-npm.svg?style=flat-square
 [npm-img]:       http://img.shields.io/npm/v/please-use-npm.svg?style=flat-square
 [npm-url]:       https://npmjs.org/package/please-use-npm
