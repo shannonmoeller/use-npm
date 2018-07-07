@@ -18,7 +18,7 @@ For example, in your `package.json`:
 ```json
 {
   "scripts": {
-     "preinstall": "npm i --ignore-scripts --no-save please-use-npm && use-npm"
+     "preinstall": "npm i -D --ignore-scripts please-use-npm && use-npm"
   }
 }
 ```
