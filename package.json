@@ -1,6 +1,6 @@
 {
   "name": "please-use-npm",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Request that users use npm instead of yarn.",
   "scripts": {
     "test": "node cli.js"
